@@ -1,0 +1,437 @@
+header > div .title h2  {
+    color: grey;
+    padding-top: 8px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.title > span {
+    color: #FF9500;
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+    border-left: 3px solid grey;
+    font-size: 20px;
+    font-weight: bold;
+    font-size: 32px;
+    margin-right: 5px;
+    padding-left: 3px;
+}
+
+nav {
+    margin: 15px;
+}
+
+nav > a{
+    display: block;
+    background-color: #7FC2F7;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    padding: 12px;
+}
+
+.title-img {
+    background-image: url(./banner3.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding: 180px 10px;
+    text-align: center;
+    color: white;
+}
+
+
+button {
+    background-color: #1A6EB8;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.naslov {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    width: 100%;
+
+}
+
+.border {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.border div:nth-child(1) {
+    border-top: 2px solid black;
+    width: 60px;
+    margin-top: 8px ;
+    align-items: center;
+}
+.border div:nth-child(2) {
+    border: 2px solid black;
+    width: 19px;
+    height: 19px;
+    margin: 0 5px;
+    transform: rotate(45deg) ;
+}
+.border div:nth-child(3) {
+    border-top: 2px solid black;
+    width: 60px;
+    margin-top: 8px ;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.aside p {
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+h3 {
+    color: #1A6EB8;
+    padding: 20px 0;
+}
+
+.aside-img > img {
+    display: flex;
+    width: 100%;
+}
+
+li {
+list-style-image: url(./arrow_bullet.png) ;
+padding-top: 10px;
+margin-left: 20px;
+color: grey;
+}
+
+.star {
+    padding: 25px;
+}
+
+.title-marmun  {
+    margin-bottom: 20px;
+    background-color: #7FC2F7;
+    padding: 20px;
+}
+
+.title-marmun img {
+    margin-right: 15px;
+    border: 3px solid white;
+    border-radius: 60%;
+    height: 60px;
+    width: 60px;
+    padding: 3px;
+}
+
+.marmun {
+    display: flex;
+    width: 100%;
+}
+
+.marmun1 {
+    background-color: #7FC2F7;
+    color: white;
+    line-height: 30px;
+}
+
+.marmun span {
+    font-size: 20px;
+    color: white;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-us {
+    background-color: #3ADD9A;
+    width: 50%;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.contact-us img {
+    width: 22px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.contact-us svg {
+    width: 22px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.contact-us h3 {
+    color: white;
+}
+
+.conect-us {
+    background-color:#FF4F81 ;
+    width: 50%;
+    text-align: center;
+}
+.conect-us img {
+    margin: 10px;
+}
+
+.conect-us h3{
+    color: white;
+    padding: 35px 0;
+}
+
+.address {
+    background-color: #3369E6;
+    width: 50%;
+    text-align: center;
+    color: white;
+    padding: 10px 28px;
+    line-height: 25px;
+}
+
+.address h3 {
+    color: white;
+}
+
+.address svg {
+    width: 22px;
+}
+
+.house {
+    width: 50%;
+    background-color: #7FC2F7;
+    max-height: 200px;
+}
+
+.house img {
+    max-height: 200px;
+}
+
+.map {
+    width: 100%;
+}
+
+.mail-us {
+   width: 100%;
+   padding: 10px;
+}
+.mail-us form {
+    display: flex;
+    flex-direction: column;
+}
+
+.mail-us form input {
+    margin: 0 0 15px 0;
+    padding: 15px;
+}
+
+textarea {
+    padding: 10px 0 0 10px;
+}
+
+.submitb {
+    background-color:#FF9801 ;
+    width: 100px;
+    border-radius: 0;
+    border: 0;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 30px;
+    width: 100%;
+    height: 25vh;
+    background-color: #212121;
+    text-align: center;
+}
+
+footer div {
+}
+
+footer a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 60px 8px 20px 0;
+}
+
+.copy {
+    font-size: 12px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    vertical-align: middle;
+    padding-top: 0;
+}
+
+.copyright {
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 768px){
+    header {
+        background-image: url(./banner3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .tablet-title {
+        display: flex;
+        justify-content: space-between;
+        padding: 12px;
+        align-items: center;
+    }
+    .title span {
+        border-color: rgb(255, 255, 255);
+    }
+    .tablet-title .title > h2 {
+        color: white;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation a {
+        background-color: transparent;
+        padding-left: 15px;
+    }
+
+    .title-img {
+        width: 100%;
+        background-image: none;
+    }
+    .title-img h2 {
+        font-size: 30px;
+    }
+    button {
+        padding: 12px 35px;
+    }
+    .aside {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 50px;
+    }
+    .aside-text {
+        width: 40%;
+    }
+    .aside-img {
+        width: 50%;
+    }
+    .aside-img img {
+        width: 100%;
+        margin: 30px 0 0 0 ;
+    }
+    .star {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4%;
+        padding-left: 80px;
+    }
+    .title-marmun {
+        width: 45%;
+        padding: 50px 10px;
+    }
+    .marmun img {
+        width: 30%;
+        height: 30%;
+    }
+
+    .mail-us form {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2%;
+        justify-content: center;
+    }
+
+    .mail-us form input {
+        width: 30%;
+    }
+
+    .mail-us form textarea {
+        width: 94%;
+    }
+
+    .submitb {
+        margin-left: 25px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .title span, .title h2 {
+        font-size: 20px;
+    }
+    .tablet-title {
+        padding: 0 10px;
+    }
+    .navigation a {
+        font-size: 12px;
+    }
+    button {
+        font-size: 10px;
+        padding: 8px 12px;
+    }
+    .title-img h2 {
+        letter-spacing: 3px;
+    }
+    .aside {
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        justify-content: space-evenly;
+        
+        padding: 0 50px;
+    }
+    .aside-text {
+        width: 25%;
+    }
+    .aside-img {
+        width: 25%;
+    }
+    .aside-img img {
+        width: 100%;
+        margin: 30px 0 0 0 ;
+    }
+    .aside-text2 {
+        width: 25%;
+    }
+    .star {
+        flex-wrap: nowrap;
+        padding-left: 40px;
+    }
+    .contact {
+        flex-wrap: nowrap;
+    }
+
+    .mail-us {
+        padding: 0 140px;
+    }
+    .submitb {
+        margin-left: 3%;
+    }
+}
